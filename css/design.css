@@ -21,4 +21,23 @@ article:nth-child(2){
 }
 article:nth-child(3){
     border: 2px solid orange;
+}.col-md-3:first-child{
+    color:firebrick;
+    background-color:darkturquoise;
+}
+.col-md-3:last-child{
+    color:dodgerblue;
+    background-color:darksalmon;
+}
+article:first-child{
+    border: 2px solid blue;
+}
+article:last-child{
+    border: 2px solid red;
+}
+article:nth-child(2){
+    border: 2px solid green;
+}
+article:nth-child(3){
+    border: 2px solid orange;
 }
