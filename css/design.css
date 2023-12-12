@@ -1,10 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;900&display=swap");
+* {
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+:root {
+  --color-1: #38bee5;
+  --color-2: #5c98b3;
+  --color-3: #807281;
+  --color-4: #a44c4f;
+  --color-5: #c8261d;
+}
+
 body {
-  background: #000405;
+  background: #000;
+  line-height: 1;
   min-height: 100vh;
+  min-width: 100vw;
+  display: grid;
+  place-items: center;
+  min-height: calc(100vh - 1rem);
+  color: white;
+}
+
+.container {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #fff;
-  font-family: 'Work Sans', sans-serif;
+  justify-content: space-between;
+  align-items: space-evenly;
+  flex-flow: wrap column;
+}
+
+.hero-Header {
+  flex: 1 1;
+  padding: 1.5rem;
+  text-align: left;
+  max-width: 90vw;
+  max-height: 100vh;
+  border: 2.5vw solid white;
+  margin: auto;
+}
+.hero-Header h1 {
+  font-family: "Exo", sans-serif;
+  font-size: 15vw;
   font-weight: 900;
+  width: -webkit-min-content;
+  width: -moz-min-content;
+  width: min-content;
+  margin: auto;
+  text-transform: uppercase;
+  background: linear-gradient(219deg, var(--color-1) 19%, transparent 19%, transparent 20%, var(--color-2) 20%, var(--color-2) 39%, transparent 39%, transparent 40%, var(--color-3) 40%, var(--color-3) 59%, transparent 59%, transparent 60%, var(--color-4) 60%, var(--color-4) 79%, transparent 79%, transparent 80%, var(--color-5) 80%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.wrapper {
+  font-size: 6.5rem;
 }
