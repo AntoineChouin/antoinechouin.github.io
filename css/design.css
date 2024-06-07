@@ -11,6 +11,13 @@
   --color-4: #a44c4f;
   --color-5: #c8261d;
 }
+:small{
+   --color-1: #fe227d;
+  --color-2: #fea322;
+  --color-3: #807281;
+  --color-4: #a44c4f;
+  --color-5: #c8261d;
+}
 
 body {
   background: #000;
@@ -56,4 +63,12 @@ body {
 
 .wrapper {
   font-size: 6.5rem;
+}
+@media (max-width: 1250px) {
+  .hero-Header h1 {
+    --main-bg-color: small;
+
+  }
+
+  
 }
